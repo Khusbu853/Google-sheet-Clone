@@ -32,6 +32,9 @@ body {
     display: inline-block;
     margin-right: 1rem;
 }
+.cellproperties-actions-container > span {
+    cursor: pointer;
+}
 .cellproperties-actions-container > select {
     border: none;
     border-radius: 2px;
@@ -42,6 +45,17 @@ body {
 }
 .font-size-prop {
     padding: 0.2rem;
+}
+.color-prop {
+    position: relative;
+}
+.color-prop > input {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
 }
 
 
@@ -121,6 +135,7 @@ body {
     justify-content: center;
     text-align: center;
     border: 1px solid #dfe4ea;
+
 }
 .row-cont {
     display: flex;

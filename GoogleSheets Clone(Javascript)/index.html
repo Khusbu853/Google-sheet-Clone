@@ -40,24 +40,36 @@
             <option value="18">18</option>
             <option value="20">20</option>
         </select>
-        <span class="material-symbols-outlined">
+        <span class="material-symbols-outlined bold">
             format_bold
         </span>
-        <span class="material-symbols-outlined">
+        <span class="material-symbols-outlined italic">
             format_italic
         </span>
-        <span class="material-symbols-outlined">
+        <span class="material-symbols-outlined underline">
             format_underlined
         </span>
-        <span class="material-symbols-outlined">
+        <span class="left material-symbols-outlined alignment">
             format_align_left
         </span>
-        <span class="material-symbols-outlined">
+        <span class="center material-symbols-outlined alignment">
             format_align_justify
         </span>
-        <span class="material-symbols-outlined">
+        <span class="right material-symbols-outlined alignment">
             format_align_right
         </span>
+        <div class="color-prop">
+            <span class="material-symbols-outlined">
+                format_color_text
+            </span>
+            <input type="color" class="font-color-prop">
+        </div>
+        <div class="color-prop">
+            <span class="material-symbols-outlined">
+                format_color_fill
+            </span>
+            <input type="color" class="bg-color-prop">
+        </div>
     </div>
 
     <!-- formulae container -->
@@ -88,6 +100,7 @@
         </div>
     </div>
     
-    <script src="script.js"></script>
+    <script src="JS/grid.js"></script>
+    <script src="JS/cell_properties.js"></script>
 </body>
 </html>
